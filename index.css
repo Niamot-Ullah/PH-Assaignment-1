@@ -303,7 +303,57 @@ p{
 /* Subscribe section starts here  */
 .sub-container{
     text-align: center;
+    max-width: 1280px;
+    margin: 0 160px 100px 160px;
+    background-color: rgb(198, 228, 214);
+    padding:80px 0;
+    border-radius: 20px;
+}
+.sub-container h1{
+    font-size: 38px;
+    font-weight: bold;
 }
 .sub-input{
+    /* border-radius: 15px; */
+}
+.sub-input input{
+    /* padding: 18px 40px; */
+    width: 550px;
+    height: 55px;
+    border: none;
+    font-size: 16px;
+    padding-left: 36px;
+    padding-right: -36px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.sub-input button{
+    background-color: rgb(0, 106, 80);
+    color: #FFFFFF;
+    padding: 16.8px 34px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: -.2rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+/* footer starts here */
+footer{
+    text-align: center;
+    background-color: #FFFFFF;
+    max-height: 226px;
+    padding: 50px;
+}
+footer h1{
+    padding-bottom: 25px;
+}
+.footer-img{
+    text-decoration: none;
+}
+footer img{
     
+    padding: 20px 10px;
 }
