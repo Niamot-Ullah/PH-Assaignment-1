@@ -27,6 +27,10 @@ p{
     border-radius: 8px;
     font-size: 18px;
     font-weight: 600;
+    cursor: pointer;
+}
+#hover-effect:hover{
+    background-color:rgb(46, 212, 46);
 }
 /* nav-bar starts from here  */
 .nav-container{
@@ -50,6 +54,7 @@ p{
     font-weight: 600;
     background-color: #FFFFFF;
     color: #006A50;
+    cursor: pointer;
 }
 /* Banner section starts from here  */
 .banner-container{
@@ -102,6 +107,7 @@ p{
     font-weight: 600;
     color: #FFFFFF;
     background-color: #006A50;
+    cursor: pointer;
 }
 
 /* the vision of future section starts here  */
@@ -124,10 +130,12 @@ p{
     margin-right: 20px;
     padding: 30px;
     border-radius: 15px;
+    
 }
 .digital h3,.green h3,.modern h3{
     margin-top: 2rem;
     margin-bottom: -.5rem;
+    
 }
 .green {
     width: 350px;
@@ -156,6 +164,7 @@ p{
     font-size: 16px;
     font-weight: 600;
     background-color: rgb(84, 144, 245);
+    cursor: pointer;
 }
 .green button{
     width: 130px;
@@ -168,6 +177,7 @@ p{
     font-weight: 600;
     background-color: #09A15C;
     margin-top: 1rem;
+    cursor: pointer;
 }
 .modern button{
     width: 130px;
@@ -179,6 +189,7 @@ p{
     font-size: 16px;
     font-weight: 600;
     background-color: #FFC239;
+    cursor: pointer;
 }
 
 /* Yunus section starts here  */
@@ -273,7 +284,7 @@ p{
     font-weight: bold;
     cursor: pointer;
 }
-#donate-data{
+.donate-dat{
     width: 240px;
     /* height: 28px; */
     padding: 40px;
@@ -304,7 +315,7 @@ p{
 .sub-container{
     text-align: center;
     max-width: 1280px;
-    margin: 0 160px 100px 160px;
+    margin: 50px 160px 100px 160px;
     background-color: rgb(198, 228, 214);
     padding:80px 0;
     border-radius: 20px;
