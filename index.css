@@ -235,9 +235,75 @@ p{
 }
 .satellite1-data h2{
     padding-bottom: 1.5rem;
+    font-size: 30px;
+    opacity: .7;
 }
 
 /* satellite2  */
 .news-satellite2{
-    margin-top: 24px;
+    margin-top: 30px;
+}
+
+/* Donate section starts here   */
+.donate-container{
+    max-width: 1280px;
+    margin: 32px 160px 0 160px;
+    padding: 70px;
+    text-align: center;
+}
+.donate-title h1{
+    font-size: 38px;
+    font-weight: bold;
+}
+.donate-datas{
+    display: flex;
+    justify-content: center;
+    margin-right: 1rem;
+    margin-left: -1rem;
+}
+.donate-data{
+    width: 240px;
+    /* height: 28px; */
+    padding: 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background-color: #ffffff;
+    border-radius: 13px;
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#donate-data{
+    width: 240px;
+    /* height: 28px; */
+    padding: 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background-color:rgb(198, 228, 214);
+    border-radius: 13px;
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.donate-amount{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.donate-amount input{
+    text-align: center;
+    margin:32px 50px 32px 50px;
+    padding: 20px 200px;
+    font-size: 20px;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+/* Subscribe section starts here  */
+.sub-container{
+    text-align: center;
+}
+.sub-input{
+    
 }
